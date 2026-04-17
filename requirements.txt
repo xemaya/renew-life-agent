@@ -1,0 +1,4 @@
+# Base image ships fastapi / uvicorn / httpx / anthropic / boto3 / pydantic
+# / a2h-agent / a2h-cli. renew-life-agent needs none of them in addition.
+# Leaving the file present so future additions have a home without touching
+# the Dockerfile.
