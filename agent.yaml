@@ -3,7 +3,7 @@ kind: Agent
 
 metadata:
   name: renew_life
-  version: 1.0.0
+  version: 1.0.1
   displayName: 人生重启
 
 runtime:
