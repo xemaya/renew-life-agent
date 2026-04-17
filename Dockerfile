@@ -1,6 +1,6 @@
 # Extends the platform-provided Python base image — FastAPI / uvicorn /
 # httpx / anthropic / a2h-agent / a2h-cli are already installed there.
-FROM a2h/agent-base:python-3.12-http
+FROM 050027656530.dkr.ecr.us-east-1.amazonaws.com/a2h/agent-base:python-3.12-http
 
 COPY --chown=agent:agent . /opt/agent
 WORKDIR /opt/agent
